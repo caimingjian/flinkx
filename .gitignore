@@ -1,11 +1,11 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
-syncplugins/
+#syncplugins/
 *.iml
 target/
-lib/
-jobs/
+#lib/
+#jobs/
 nohup.out
-flinkconf/
-hadoopconf/
+#flinkconf/
+#hadoopconf/
 /default_task_id_output
