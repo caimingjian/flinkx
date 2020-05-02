@@ -5,6 +5,10 @@ FlinkX
 
 [English](README_EN.md) | 中文
 
+<https://github.com/geekyouth/flinkx/releases/tag/v-1.10.01>
+
+![](docs/images/build.png)
+
 # 介绍
 
 FlinkX是一个基于Flink的批流统一的数据同步工具，既可以采集静态的数据，比如MySQL，HDFS等，也可以采集实时变化的数据，比如MySQL binlog，Kafka等。FlinkX目前包含下面这些特性：
