@@ -1,0 +1,40 @@
+{
+	"job" : {
+		"content" : [ {
+			"reader": {
+				"name": "streamreader",
+				"parameter": {
+					"column": [
+						{
+							"name": "id",
+							"type": "int"
+						},
+						{
+							"name": "name",
+							"type": "string"
+						}
+					]
+				}
+			},
+			"writer" : {
+				"parameter" : {
+					"print": false
+				},
+				"name" : "streamwriter"
+			}
+		} ],
+		"setting" : {
+			"restore" : {
+				"isRestore" : false,
+				"isStream" : false
+			},
+			"errorLimit" : {
+			},
+			"speed" : {
+				"bytes" : 0,
+				"channel" : 1,
+				"rebalance" : true
+			}
+		}
+	}
+}
