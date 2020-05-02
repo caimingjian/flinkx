@@ -1,19 +1,4 @@
-FlinkX
-============
-
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-
-[English](README.md) | 中文
-
-# 技术交流
-
-- 招聘**大数据平台开发工程师**，想了解岗位详细信息可以添加本人微信号ysqwhiletrue，注明招聘，如有意者发送简历至[sishu@dtstack.com](mailto:sishu@dtstack.com)
-
-- 我们使用[钉钉](https://www.dingtalk.com/)沟通交流，可以搜索群号[**30537511**]或者扫描下面的二维码进入钉钉群
-  
-  <div align=center>
-     <img src=docs/images/ding.jpg width=300 />
-   </div>
+[English](https://github.com/DTStack/flinkx/wiki/Home) | 中文
 
 # 介绍
 

@@ -3,29 +3,39 @@ FlinkX
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-[English](README_EN.md) | 中文
+English | [中文](README.md)
 
-# 介绍
+# Communication
 
-FlinkX是一个基于Flink的批流统一的数据同步工具，既可以采集静态的数据，比如MySQL，HDFS等，也可以采集实时变化的数据，比如MySQL binlog，Kafka等。FlinkX目前包含下面这些特性：
+- We are recruiting **Big data platform development engineers**.If you want more information about the position, please add WeChat ID [**ysqwhiletrue**] or email your resume to [sishu@dtstack.com](mailto:sishu@dtstack.com).
 
-- 大部分插件支持并发读写数据，可以大幅度提高读写速度；
+- We use [DingTalk](https://www.dingtalk.com/) to communicate,You can search the group number [**30537511**] or scan the QR code below to join the communication group
+  
+  <div align=center>
+     <img src=docs/images/ding.jpg width=300 />
+   </div>
 
-- 部分插件支持失败恢复的功能，可以从失败的位置恢复任务，节约运行时间；[失败恢复](docs/restore.md)
+# Introduction
 
-- 关系数据库的Reader插件支持间隔轮询功能，可以持续不断的采集变化的数据；[间隔轮询](docs/rdbreader.md)
+FlinkX is a data synchronization tool based on Flink. FlinkX can collect static data, such as MySQL, HDFS, etc, as well as real-time changing data, such as MySQL binlog, Kafka, etc. FlinkX currently includes the following features:
 
-- 部分数据库支持开启Kerberos安全认证；[Kerberos](docs/kerberos.md)
+- Most plugins support concurrent reading and writing of data, which can greatly improve the speed of reading and writing;
 
-- 可以限制reader的读取速度，降低对业务数据库的影响；
+- Some plug-ins support the function of failure recovery, which can restore tasks from the failed location and save running time; [Failure Recovery](docs/restore.md)
 
-- 可以记录writer插件写数据时产生的脏数据；
+- The Reader plugin for relational databases supports interval polling. It can continuously collect changing data; [Interval Polling](docs/rdbreader.md)
 
-- 可以限制脏数据的最大数量；
+- Some databases support opening Kerberos security authentication;  [Kerberos](docs/kerberos.md)
 
-- 支持多种运行模式；
+- Limit the reading speed of Reader plugins and reduce the impact on business databases;
 
-FlinkX目前支持下面这些数据库：
+- Save the dirty data when writing data;
+
+- Limit the maximum number of dirty data;
+
+- Multiple running modes: Local,Standalone,Yarn Session,Yarn Per;
+
+The following databases are currently supported:
 
 |                        | Database Type  | Reader                          | Writer                          |
 |:----------------------:|:--------------:|:-------------------------------:|:-------------------------------:|
@@ -40,7 +50,7 @@ FlinkX目前支持下面这些数据库：
 |                        | SAP Hana       | [doc](docs/rdbreader.md)        | [doc](docs/rdbwriter.md)        |
 |                        | Teradata       | [doc](docs/rdbreader.md)        | [doc](docs/rdbwriter.md)        |
 |                        | Phoenix        | [doc](docs/rdbreader.md)        | [doc](docs/rdbwriter.md)        |
-|                        | 达梦            | [doc](docs/rdbreader.md)        | [doc](docs/rdbwriter.md)        |
+|                        | 达梦             | [doc](docs/rdbreader.md)        | [doc](docs/rdbwriter.md)        |
 |                        | Cassandra      | [doc](docs/cassandrareader.md)  | [doc](docs/cassandrawriter.md)  |
 |                        | ODPS           | [doc](docs/odpsreader.md)       | [doc](docs/odpswriter.md)       |
 |                        | HBase          | [doc](docs/hbasereader.md)      | [doc](docs/hbasewriter.md)      |
@@ -58,9 +68,9 @@ FlinkX目前支持下面这些数据库：
 |                        | MongoDB Oplog  | [doc](docs/mongodb_oplog.md)    |                                 |
 |                        | PostgreSQL WAL | [doc](docs/pgwalreader.md)      |                                 |
 
-# 参考文档
+# Documentation
 
-[参考文档 | wiki](docs) | [旧文档](README_OLD.md)
+[Documentation](https://github.com/DTStack/flinkx/wiki) | [Old Documentation](README_OLD.md)
 
 # License
 
